@@ -24,14 +24,14 @@ const ContactForm = () => {
   return (
     <form onSubmit={handleSubmit} className={s.form}>
       <label>
-        Name
+        Імя
         <input name="name" type="text" required />
       </label>
       <label>
-        Number
+        Номер
         <input name="number" type="text" required />
       </label>
-      <button type="submit">Add contact</button>
+      <button type="submit">Створити контакт</button>
     </form>
   );
 };
